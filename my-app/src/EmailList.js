@@ -5,7 +5,7 @@ class EmailList extends Component {
     constructor(props) {
         super(props)
         this.state = {
-            emails: [... props.emails]
+            emails: [...props.emails]
         }
     }
 
